@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  background-color: #434c6058;
+  gap: 0.4rem;
+  min-width: 16rem;
+  font-family: 'Cascadia Code';
+  scroll-snap-align: center;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.grade {
+  font-size: 2rem;
+  color: rgb(93, 255, 104);
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.links {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+}

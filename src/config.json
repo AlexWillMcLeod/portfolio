@@ -1,0 +1,40 @@
+{
+  "left-navbar-links": [
+    {
+      "href": "#",
+      "text": "About"
+    },
+    {
+      "href": "#projects",
+      "text": "Projects"
+    },
+    {
+      "href": "#experience",
+      "text": "Experience"
+    },
+    {
+      "href": "#academic",
+      "text": "Academic"
+    }
+  ],
+  "right-navbar-links": [
+    {
+      "href": "https://www.linkedin.com/in/alexwillmcleod/",
+      "target": "_blank",
+      "text": "LinkedIn"
+    },
+    {
+      "href": "https://github.com/AlexWillMcLeod",
+      "text": "Github",
+      "target": "_blank"
+    },
+    {
+      "href": "",
+      "text": "Resume"
+    },
+    {
+      "href": "#contact",
+      "text": "Contact"
+    }
+  ]
+}

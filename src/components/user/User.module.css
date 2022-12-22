@@ -1,0 +1,28 @@
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #434c6061;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+  gap: 1rem;
+}
+
+.image {
+  width: 72px;
+  height: 72px;
+  border-radius: 100%;
+}
+
+.name {
+  font-size: 1.4rem;
+  font-family: 'Cascadia Code';
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-family: 'Cascadia Code';
+  font-style: italic;
+}

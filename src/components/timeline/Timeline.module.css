@@ -1,0 +1,24 @@
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-container > * {
+  padding-bottom: 2.5rem;
+  border-left: 0.5rem solid #ffffff;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+.timeline-container > *::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: black;
+  border: 0.3rem solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: -1.1rem;
+  top: -0.05rem;
+}

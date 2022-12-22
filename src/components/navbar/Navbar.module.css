@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  scroll-snap-align: start;
+  justify-content: center;
+}
+
+.menu-button {
+  background-color: transparent;
+  scroll-snap-align: end;
+
+  border: none;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+  position: absolute;
+}
+
+.hidden {
+  border: none;
+  background: transparent;
+}
+
+.dropdown-list {
+  padding: 2rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c348e;
+  gap: 2rem;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem 2rem;
+}
+
+.list-item {
+  padding: 0.4rem;
+}
+
+.list-item-a {
+  text-decoration: none;
+  font-family: 'Cascadia Code';
+  font-size: 1.2rem;
+  color: white;
+}

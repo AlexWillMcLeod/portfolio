@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  color-scheme: dark;
+}
+
+.main {
+  width: 100vw;
+  background-color: #000000a8;
+  display: flex;
+  flex-direction: column;
+
+  scroll-behavior: smooth;
+  background-image: radial-gradient(
+      circle at 20% 60%,
+      rgba(50, 197, 182, 0.5),
+      transparent 300px
+    ),
+    radial-gradient(
+      circle at 40% 30%,
+      rgba(50, 116, 197, 0.5),
+      transparent 600px
+    ),
+    radial-gradient(
+      circle at 90% 90%,
+      rgba(247, 206, 83, 0.5),
+      transparent 400px
+    ),
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(255, 12, 125, 0.5),
+      transparent 400px
+    );
+}
+
+.desc {
+  font-family: 'Cascadia Code';
+  color: white;
+  display: flex;
+  display: inline-block;
+  width: min(100%, 60rem);
+}

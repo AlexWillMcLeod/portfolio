@@ -1,0 +1,26 @@
+.container {
+  font-family: 'Cascadia Code';
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: min(100%, 60rem);
+}
+
+.container * {
+  margin: 0;
+  padding: 0;
+}
+
+.role {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.company {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.desc {
+  margin-top: 2rem;
+}

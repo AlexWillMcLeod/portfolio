@@ -1,0 +1,49 @@
+.card-div {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 2rem;
+  padding: 2.5rem;
+  width: 100vw;
+  height: 100vh;
+  background: none;
+  overflow-y: scroll;
+}
+
+.title {
+  font-family: 'Cascadia Code';
+  color: white;
+}
+
+.title-div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.back-button {
+  background-color: transparent;
+  border: 0.1rem solid white;
+  font-family: 'Cascadia Code';
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.return-char {
+  font-size: 1.4rem;
+}
+
+.subtitle {
+  font-family: 'Cascadia Code';
+  font-style: italic;
+  color: white;
+}
