@@ -45,8 +45,6 @@ const App: Component = () => {
   // Use static resume asset
   rightNavbarLinks[2].href = ResumeAssetLink;
 
-  console.log(rightNavbarLinks);
-
   return (
     <div class="main">
       <Navbar

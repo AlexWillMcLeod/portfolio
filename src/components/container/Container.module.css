@@ -8,5 +8,10 @@
   max-width: min-content;
   scroll-behavior: smooth;
   gap: 2rem;
-  /* scroll-snap-type: x mandatory; */
+}
+
+@media screen and (max-width: 880px) {
+  .container {
+    scroll-snap-type: x mandatory;
+  }
 }

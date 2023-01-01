@@ -13,8 +13,13 @@
   transition: all 0.5s ease;
 }
 
-.container:hover {
-  min-width: 28rem;
+@media screen and (min-width: 880px) {
+  .container:hover {
+    min-width: 28rem;
+  }
+  .container:hover .image-container {
+    width: 25rem;
+  }
 }
 
 .image-container {
@@ -23,9 +28,6 @@
   transition: all 0.5s ease;
 }
 
-.container:hover .image-container {
-  width: 25rem;
-}
 .image-container * {
   width: 100%;
 }
