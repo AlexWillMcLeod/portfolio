@@ -28,6 +28,7 @@ import { Contact } from './components/contact/Contact';
 import { ContactCard } from './components/contact/contact-card/ContactCard';
 import TuringMachineImgLink from '../assets/turing-machine.png';
 import ScheduleImgLink from '../assets/schedule.png';
+import ResumeAssetLink from '../assets/resume.pdf';
 
 const AlexMcLeodUser = () => (
   <User
@@ -40,6 +41,11 @@ const AlexMcLeodUser = () => (
 const App: Component = () => {
   const leftNavbarLinks = config['left-navbar-links'];
   const rightNavbarLinks = config['right-navbar-links'];
+
+  // Use static resume asset
+  rightNavbarLinks[2].href = ResumeAssetLink;
+
+  console.log(rightNavbarLinks);
 
   return (
     <div class="main">
