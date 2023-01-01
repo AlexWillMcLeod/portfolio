@@ -19,10 +19,21 @@ import {
   Rust,
   TechIcon,
   TypeScript,
+  SolidJS,
+  Vite,
 } from './components/tech-icon/TechIcon';
 import { TimelineCard } from './components/timeline/timeline-point/TimelineCard';
-import { ContactMenu } from './components/contact-menu/ContactMenu';
 import { User } from './components/user/User';
+import { Contact } from './components/contact/Contact';
+import { ContactCard } from './components/contact/contact-card/ContactCard';
+
+const AlexMcLeodUser = () => (
+  <User
+    name="Alex McLeod"
+    subtitle="Software Engineer"
+    icon="https://media.licdn.com/dms/image/D5603AQHYxrAaw90Ftg/profile-displayphoto-shrink_400_400/0/1666222795504?e=1677110400&v=beta&t=xwfaDvNmIGhUZdbXLqjc-Kmd6Ph2nsypOm4rJZLNvOU"
+  />
+);
 
 const App: Component = () => {
   const leftNavbarLinks = config['left-navbar-links'];
@@ -35,13 +46,7 @@ const App: Component = () => {
         right_links={rightNavbarLinks}
       />
       <Card
-        title={
-          <User
-            name="Alex McLeod"
-            subtitle="Software Engineer"
-            icon="https://media.licdn.com/dms/image/D5603AQHYxrAaw90Ftg/profile-displayphoto-shrink_400_400/0/1666222795504?e=1677110400&v=beta&t=xwfaDvNmIGhUZdbXLqjc-Kmd6Ph2nsypOm4rJZLNvOU"
-          />
-        }
+        title={<AlexMcLeodUser />}
         id=""
       >
         <p class="desc">
@@ -58,6 +63,14 @@ const App: Component = () => {
         back
       >
         <Container>
+          <Project
+            title="Portfolio Website"
+            desc="Component-based reactive SolidJS-Vite web application with custom personal styling and scrolling"
+            github_link="https://github.com/AlexWillMcLeod/portfolio"
+            technologies={[TypeScript, SolidJS, Vite]}
+          >
+            <img src="assets/landing-page-screenshot.png" />
+          </Project>
           <Project
             title="Caesar Cipher"
             desc="Quick and simple desktop app for caesar ciper conversions built using Electron Typescript with Material UI."
@@ -83,6 +96,14 @@ const App: Component = () => {
             <img src="https://github.com/AlexWillMcLeod/brainstormer/raw/main/img/veloce-icon.png" />
           </Project>
           <Project
+            title="Schedule"
+            desc="Rust library for sorting secondary school students into classes by subjects, a task that takes schools many months, automated into millisecond speed."
+            technologies={[Rust]}
+            github_link="https://github.com/AlexWillMcLeod/schedule"
+          >
+            <img src="assets/schedule.png" />
+          </Project>
+          <Project
             title="Turing Machine"
             desc="Turing machine implementation in rust with iterator model for learning. "
             technologies={[Rust]}
@@ -99,41 +120,17 @@ const App: Component = () => {
       >
         <Timeline>
           <TimelineCard
-            role="Software Engineer"
-            company="University of Auckland - Web Development Consulting Club"
-            timeperiod="Feb '23 -> Nov '23"
-            desc=""
-          />
-          <TimelineCard
             role="Market Research Associate"
             company="One Picture Group"
             timeperiod="Jun '22 -> Oct '22"
             desc="Enthusiastically interviewed participants and entered data for important social market research projects for clients such as Auckland Transport, Metlink, GWRC and MBIE. Integrated into company culture and learnt to use internal company software as well as teams, excel and email professionally."
           />
-          <TimelineCard
-            role="Uniguide"
+          {/* <TimelineCard
+            role="Volunteer Uniguide"
             company="University of Auckland"
             timeperiod="Feb '23 -> Nov '23"
             desc=""
-          />
-          <TimelineCard
-            role="Young Sustainability Leader"
-            company="Sustainable Future Collective"
-            timeperiod="Feb '23 -> Nov '23"
-            desc=""
-          />
-          <TimelineCard
-            role="Class Representative"
-            company="Sustainable Future Collective"
-            timeperiod="Feb '23 -> Nov '23"
-            desc=""
-          />
-          <TimelineCard
-            role="Student Mentor"
-            company="Otumoetai College"
-            timeperiod="Feb '21 -> Nov '21"
-            desc=""
-          />
+          /> */}
         </Timeline>
       </Card>
       <Card
@@ -205,15 +202,12 @@ const App: Component = () => {
         id="contact"
         back
       >
-        <ContactMenu
-          user={
-            <User
-              name="Alex"
-              subtitle="alexwillmcleod@gmail.com"
-              icon="https://media.licdn.com/dms/image/D5603AQHYxrAaw90Ftg/profile-displayphoto-shrink_400_400/0/1666222795504?e=1677110400&v=beta&t=xwfaDvNmIGhUZdbXLqjc-Kmd6Ph2nsypOm4rJZLNvOU"
-            />
-          }
-        />
+        <Contact>
+          <ContactCard
+            user={<AlexMcLeodUser />}
+            email="alexwillmcleod@gmail.com"
+          />
+        </Contact>
       </Card>
     </div>
   );

@@ -80,10 +80,7 @@ export const Navbar: Component<Navbar> = (props: Navbar) => {
         </Show>
       </Show>
       <Show when={windowWidth() >= 880}>
-        <ul
-          class={styles.list}
-          style={{ 'margin-right': 'auto' }}
-        >
+        <ul class={styles.list}>
           {props.left_links.map((link: NavbarLink) => (
             <li class={styles['list-item']}>
               <a

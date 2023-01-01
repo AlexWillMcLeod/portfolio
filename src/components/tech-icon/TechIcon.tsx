@@ -210,3 +210,27 @@ export const Assembly = () => (
     />
   </TechIcon>
 );
+
+export const SolidJS = () => (
+  <TechIcon
+    name="solidjs"
+    link="https://www.solidjs.com/"
+  >
+    <img
+      src="https://www.solidjs.com/assets/logo-123b04bc.svg"
+      height={24}
+    />
+  </TechIcon>
+);
+
+export const Vite = () => (
+  <TechIcon
+    name="vite"
+    link="https://vitejs.dev/"
+  >
+    <img
+      src="https://camo.githubusercontent.com/61e102d7c605ff91efedb9d7e47c1c4a07cef59d3e1da202fd74f4772122ca4e/68747470733a2f2f766974656a732e6465762f6c6f676f2e737667"
+      height={24}
+    />
+  </TechIcon>
+);

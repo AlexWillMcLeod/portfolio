@@ -5,18 +5,27 @@
   border-radius: 0.5rem;
   background-color: #434c6061;
   gap: 0.4rem;
-  min-width: 16rem;
+  min-width: 20rem;
   justify-content: center;
   font-family: 'Cascadia Code';
   overflow: hidden;
   scroll-snap-align: center;
+  transition: all 0.5s ease;
+}
+
+.container:hover {
+  min-width: 28rem;
 }
 
 .image-container {
-  width: 14rem;
+  width: 16rem;
   margin-bottom: auto;
+  transition: all 0.5s ease;
 }
 
+.container:hover .image-container {
+  width: 25rem;
+}
 .image-container * {
   width: 100%;
 }

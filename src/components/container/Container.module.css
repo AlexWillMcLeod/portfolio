@@ -5,9 +5,8 @@
   padding: 2rem;
   overflow: scroll;
   border-radius: 0.5rem;
-  width: min-content;
-  max-width: 100%;
+  max-width: min-content;
   scroll-behavior: smooth;
   gap: 2rem;
-  scroll-snap-type: x mandatory;
+  /* scroll-snap-type: x mandatory; */
 }
