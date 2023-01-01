@@ -26,6 +26,8 @@ import { TimelineCard } from './components/timeline/timeline-point/TimelineCard'
 import { User } from './components/user/User';
 import { Contact } from './components/contact/Contact';
 import { ContactCard } from './components/contact/contact-card/ContactCard';
+import TuringMachineImgLink from '../assets/turing-machine.png';
+import ScheduleImgLink from '../assets/schedule.png';
 
 const AlexMcLeodUser = () => (
   <User
@@ -69,7 +71,7 @@ const App: Component = () => {
             github_link="https://github.com/AlexWillMcLeod/portfolio"
             technologies={[TypeScript, SolidJS, Vite]}
           >
-            <img src="assets/landing-page-screenshot.png" />
+            <img src="https://github.com/AlexWillMcLeod/portfolio/raw/main/assets/landing-page-screenshot.png" />
           </Project>
           <Project
             title="Caesar Cipher"
@@ -101,7 +103,7 @@ const App: Component = () => {
             technologies={[Rust]}
             github_link="https://github.com/AlexWillMcLeod/schedule"
           >
-            <img src="assets/schedule.png" />
+            <img src={ScheduleImgLink} />
           </Project>
           <Project
             title="Turing Machine"
@@ -109,7 +111,7 @@ const App: Component = () => {
             technologies={[Rust]}
             github_link="https://github.com/AlexWillMcLeod/turing-machine"
           >
-            <img src="assets/turing-machine.png" />
+            <img src={TuringMachineImgLink} />
           </Project>
         </Container>
       </Card>

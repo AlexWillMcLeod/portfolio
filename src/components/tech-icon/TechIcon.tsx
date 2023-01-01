@@ -1,5 +1,9 @@
 import type { Component, JSXElement } from 'solid-js';
 import styles from './TechIcon.module.css';
+import LogisimIconLink from '../../../assets/Logisim-icon.svg';
+import LatexIconLink from '../../../assets/LaTeX_logo.svg';
+import InzightIconLink from '../../../assets/inzight_hex_noborder.svg';
+import MatlabIconLink from '../../../assets/icons8-matlab.svg';
 
 interface TechIconProps {
   name: string;
@@ -156,7 +160,7 @@ export const Logisim = () => (
     link="https://sourceforge.net/projects/circuit/"
   >
     <img
-      src="./assets/Logisim-icon.svg"
+      src={LogisimIconLink}
       width={24}
       height={24}
     />
@@ -169,7 +173,7 @@ export const Latex = () => (
     link="https://www.latex-project.org/"
   >
     <img
-      src="./assets/LaTeX_logo.svg"
+      src={LatexIconLink}
       height={24}
     />
   </TechIcon>
@@ -181,7 +185,7 @@ export const Inzight = () => (
     link="https://inzight.nz/"
   >
     <img
-      src="./assets/inzight_hex_noborder.svg"
+      src={InzightIconLink}
       height={24}
     />
   </TechIcon>
@@ -193,7 +197,7 @@ export const Matlab = () => (
     link=""
   >
     <img
-      src="./assets/icons8-matlab.svg"
+      src={MatlabIconLink}
       height={24}
     />
   </TechIcon>
