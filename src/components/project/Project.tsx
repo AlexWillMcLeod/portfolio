@@ -46,8 +46,8 @@ export const Project: Component<ProjectProps> = (props: ProjectProps) => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              width="36px"
-              height="36px"
+              width="28px"
+              height="28px"
               fill="white"
             >
               <path d="M19,21H5c-1.1,0-2-0.9-2-2V5c0-1.1,0.9-2,2-2h7v2H5v14h14v-7h2v7C21,20.1,20.1,21,19,21z" />

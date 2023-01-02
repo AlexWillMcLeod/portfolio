@@ -4,8 +4,6 @@
 
 Responsive portfolio website developed using a modern component based architecture with SolidJS and Vite as a build tool. Features various sections for, about me, projects, experience, and academic results, as well as links, and a contact page. Website, originally developed by @alexwillmcleod, can easily be forked and customised for anyone by re-using components and updating attributes for users.
 
-Note: Contact page does not function.
-
 ## Screenshots
 
 <img src="assets/landing-page-screenshot.png">

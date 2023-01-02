@@ -21,6 +21,9 @@ import {
   TypeScript,
   SolidJS,
   Vite,
+  Netlify,
+  Electron,
+  MaterialUI,
 } from './components/tech-icon/TechIcon';
 import { TimelineCard } from './components/timeline/timeline-point/TimelineCard';
 import { User } from './components/user/User';
@@ -73,7 +76,8 @@ const App: Component = () => {
             title="Portfolio Website"
             desc="Component-based reactive SolidJS-Vite web application with custom personal styling and scrolling"
             github_link="https://github.com/AlexWillMcLeod/portfolio"
-            technologies={[TypeScript, SolidJS, Vite]}
+            technologies={[TypeScript, SolidJS, Vite, Netlify]}
+            website_link="https://www.alexwillmcleod.com"
           >
             <img src="https://github.com/AlexWillMcLeod/portfolio/raw/main/assets/landing-page-screenshot.png" />
           </Project>
@@ -81,7 +85,7 @@ const App: Component = () => {
             title="Caesar Cipher"
             desc="Quick and simple desktop app for caesar ciper conversions built using Electron Typescript with Material UI."
             github_link="https://github.com/AlexWillMcLeod/caesar-cipher"
-            technologies={[React, TypeScript]}
+            technologies={[React, TypeScript, Electron, MaterialUI]}
           >
             <img src="https://user-images.githubusercontent.com/85547635/204930479-b106c179-5666-47bc-ae01-28b065ba8bee.png" />
           </Project>
