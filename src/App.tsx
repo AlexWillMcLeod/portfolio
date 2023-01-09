@@ -106,20 +106,20 @@ const App: Component = () => {
             <img src="https://github.com/AlexWillMcLeod/brainstormer/raw/main/img/veloce-icon.png" />
           </Project>
           <Project
-            title="Schedule"
-            desc="Rust library for sorting secondary school students into classes by subjects, a task that takes schools many months, automated into millisecond speed."
-            technologies={[Rust]}
-            github_link="https://github.com/AlexWillMcLeod/schedule"
-          >
-            <img src={ScheduleImgLink} />
-          </Project>
-          <Project
             title="Turing Machine"
             desc="Turing machine implementation in rust with iterator model for learning. "
             technologies={[Rust]}
             github_link="https://github.com/AlexWillMcLeod/turing-machine"
           >
             <img src={TuringMachineImgLink} />
+          </Project>
+          <Project
+            title="Schedule"
+            desc="Rust library for sorting secondary school students into classes by subjects, a task that takes schools many months, automated into millisecond speed."
+            technologies={[Rust]}
+            github_link="https://github.com/AlexWillMcLeod/schedule"
+          >
+            <img src={ScheduleImgLink} />
           </Project>
         </Container>
       </Card>
