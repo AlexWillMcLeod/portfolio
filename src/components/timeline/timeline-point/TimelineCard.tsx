@@ -5,7 +5,7 @@ interface TimelineCardProps {
   role: string;
   company: string;
   timeperiod: string;
-  desc: string;
+  desc: string | JSXElement;
   children?: JSXElement;
 }
 

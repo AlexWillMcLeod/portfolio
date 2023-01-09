@@ -133,7 +133,26 @@ const App: Component = () => {
             role="Market Research Associate"
             company="One Picture Group"
             timeperiod="Jun '22 -> Oct '22"
-            desc="Enthusiastically interviewed participants and entered data for important social market research projects for clients such as Auckland Transport, Metlink, GWRC and MBIE. Integrated into company culture and learnt to use internal company software as well as teams, excel and email professionally."
+            desc={
+              <div>
+                Interviewed key customers and clients, including business
+                executives for large companies and enterprises such as Seeka and
+                Zespri, following strict guidelines for data governance, privacy
+                and maintaining statistical validity for market research.
+                <br />
+                <br />
+                Developed professional relationships with team members,
+                supervisors, and managers. Attended networking and culture
+                building company events.
+                <br />
+                <br />
+                Delivered value to the community with contributions on important
+                social projects, such as interviewing customers and entering
+                customer data for Auckland Transport, Metlink, and the Greater
+                Wellington Regional Council, to improve accessibility and
+                mobility within our local community
+              </div>
+            }
           />
           {/* <TimelineCard
             role="Volunteer Uniguide"
