@@ -79,7 +79,7 @@ const App: Component = () => {
             desc="Portfolio website for real company with built in contact feature."
             github_link="https://github.com/alexwillmcleod/acedia-pictures-portfolio"
             website_link="https://www.acediapictures.com"
-            technologies={[Astro]}
+            technologies={[Astro, React, TypeScript, Netlify]}
           >
             <img src={AcediaPicturesImgLink} />
           </Project>
