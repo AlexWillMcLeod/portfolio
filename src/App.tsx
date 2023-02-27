@@ -32,12 +32,13 @@ import { ContactCard } from './components/contact/contact-card/ContactCard';
 import TuringMachineImgLink from '../assets/turing-machine.png';
 import ScheduleImgLink from '../assets/schedule.png';
 import ResumeAssetLink from '../assets/resume.pdf';
+import UserIconLink from '../assets/user-icon.jpg';
 
 const AlexMcLeodUser = () => (
   <User
     name="Alex McLeod"
     subtitle="Software Engineer"
-    icon="https://media.licdn.com/dms/image/D5603AQHYxrAaw90Ftg/profile-displayphoto-shrink_400_400/0/1666222795504?e=1677110400&v=beta&t=xwfaDvNmIGhUZdbXLqjc-Kmd6Ph2nsypOm4rJZLNvOU"
+    icon={UserIconLink}
   />
 );
 
