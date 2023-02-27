@@ -5,6 +5,7 @@ import LatexIconLink from '../../../assets/LaTeX_logo.svg';
 import InzightIconLink from '../../../assets/inzight_hex_noborder.svg';
 import MatlabIconLink from '../../../assets/icons8-matlab.svg';
 import MaterialUIIconLink from '../../../assets/material-ui-seeklogo.com.svg';
+import AstroIconLink from 'https://astro.build/assets/press/simple-logomark-light.svg';
 
 interface TechIconProps {
   name: string;
@@ -300,6 +301,19 @@ export const MaterialUI = () => (
       height={24}
       width={24}
       src={MaterialUIIconLink}
+    />
+  </TechIcon>
+);
+
+export const Astro = () => (
+  <TechIcon
+    name="astro"
+    link="astro.build"
+  >
+    <img
+      height={24}
+      width={24}
+      src="https://astro.build/assets/press/simple-logomark-light.svg"
     />
   </TechIcon>
 );

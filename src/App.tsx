@@ -24,6 +24,7 @@ import {
   Netlify,
   Electron,
   MaterialUI,
+  Astro,
 } from './components/tech-icon/TechIcon';
 import { TimelineCard } from './components/timeline/timeline-point/TimelineCard';
 import { User } from './components/user/User';
@@ -32,7 +33,11 @@ import { ContactCard } from './components/contact/contact-card/ContactCard';
 import TuringMachineImgLink from '../assets/turing-machine.png';
 import ScheduleImgLink from '../assets/schedule.png';
 import ResumeAssetLink from '../assets/resume.pdf';
+<<<<<<< HEAD
 import UserIconLink from '../assets/user-icon.jpg';
+=======
+import AcediaPicturesImgLink from '../assets/acedia-pictures-icon.png';
+>>>>>>> 523ea49044060cd44d4d4b228cf4215af7156577
 
 const AlexMcLeodUser = () => (
   <User
@@ -73,6 +78,15 @@ const App: Component = () => {
         back
       >
         <Container>
+          <Project
+            title="Film Studio Portfolio Website"
+            desc="Portfolio website for real company with built in contact feature."
+            github_link="https://github.com/alexwillmcleod/acedia-pictures-portfolio"
+            website_link="https://www.acediapictures.com"
+            technologies={[Astro, React, TypeScript, Netlify]}
+          >
+            <img src={AcediaPicturesImgLink} />
+          </Project>
           <Project
             title="Portfolio Website"
             desc="Component-based reactive SolidJS-Vite web application with custom personal styling and scrolling"
