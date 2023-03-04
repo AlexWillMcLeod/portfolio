@@ -135,13 +135,13 @@ const App: Component = () => {
           </Project>
         </Container>
       </Card>
-      <Card
+      {/* <Card
         title={<h1 style={{ 'font-family': 'Cascadia Code' }}>Experience</h1>}
         id="experience"
         back
       >
-        <Timeline>
-          <TimelineCard
+        <Timeline> */}
+      {/* <TimelineCard
             role="Market Research Associate"
             company="One Picture Group"
             timeperiod="Jun '22 -> Oct '22"
@@ -165,15 +165,15 @@ const App: Component = () => {
                 mobility within our local community
               </div>
             }
-          />
-          {/* <TimelineCard
+          /> */}
+      {/* <TimelineCard
             role="Volunteer Uniguide"
             company="University of Auckland"
             timeperiod="Feb '23 -> Nov '23"
             desc=""
           /> */}
-        </Timeline>
-      </Card>
+      {/* </Timeline>
+      </Card> */}
       <Card
         title={<h1 style={{ 'font-family': 'Cascadia Code' }}>Academic</h1>}
         id="academic"
