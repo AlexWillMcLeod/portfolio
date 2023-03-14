@@ -25,6 +25,9 @@ import {
   Electron,
   MaterialUI,
   Astro,
+  Next,
+  ChatGPT,
+  Supabase,
 } from './components/tech-icon/TechIcon';
 import { TimelineCard } from './components/timeline/timeline-point/TimelineCard';
 import { User } from './components/user/User';
@@ -35,6 +38,7 @@ import ScheduleImgLink from '../assets/schedule.png';
 import ResumeAssetLink from '../assets/resume.pdf';
 import UserIconLink from '../assets/user-icon.jpg';
 import AcediaPicturesImgLink from '../assets/acedia-pictures-icon.png';
+import ThingsNewsImgLink from '../assets/thingsnews.png';
 
 const AlexMcLeodUser = () => (
   <User
@@ -92,6 +96,15 @@ const App: Component = () => {
             website_link="https://www.alexwillmcleod.com"
           >
             <img src="https://github.com/AlexWillMcLeod/portfolio/raw/main/assets/landing-page-screenshot.png" />
+          </Project>
+          <Project
+            title="Machine Learning News Website"
+            desc="ChatGPT-generated news website integrated with real news as a hackathon submission."
+            github_link="https://github.com/AlexWillMcLeod/terrible-hackathon"
+            technologies={[TypeScript, React, Next, ChatGPT, Supabase]}
+            website_link="https://thingsnews.xyz"
+          >
+            <img src={ThingsNewsImgLink} />
           </Project>
           <Project
             title="Caesar Cipher"

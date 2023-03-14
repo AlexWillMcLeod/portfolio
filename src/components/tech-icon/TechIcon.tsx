@@ -6,6 +6,7 @@ import InzightIconLink from '../../../assets/inzight_hex_noborder.svg';
 import MatlabIconLink from '../../../assets/icons8-matlab.svg';
 import MaterialUIIconLink from '../../../assets/material-ui-seeklogo.com.svg';
 import AstroIconLink from 'https://astro.build/assets/press/simple-logomark-light.svg';
+import SupabaseIconLink from '../../../assets/supabase-logo-icon.svg';
 
 interface TechIconProps {
   name: string;
@@ -314,6 +315,58 @@ export const Astro = () => (
       height={24}
       width={24}
       src="https://astro.build/assets/press/simple-logomark-light.svg"
+    />
+  </TechIcon>
+);
+
+export const Next = () => (
+  <TechIcon
+    name="next"
+    link="https://nextjs.org/"
+  >
+    <img
+      height={24}
+      width={24}
+      src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png"
+    />
+  </TechIcon>
+);
+
+export const ChatGPT = () => (
+  <TechIcon
+    name="chatgpt"
+    link="ai.com"
+  >
+    <img
+      height={24}
+      width={24}
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/900px-ChatGPT_logo.svg.png?20230210210429"
+    />
+  </TechIcon>
+);
+
+export const Tailwind = () => (
+  <TechIcon
+    name="tailwind"
+    link="tailwindcss.com"
+  >
+    <img
+      height={24}
+      width={24}
+      src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"
+    />
+  </TechIcon>
+);
+
+export const Supabase = () => (
+  <TechIcon
+    name="supabase"
+    link="supabase.com"
+  >
+    <img
+      height={24}
+      width={24}
+      src={SupabaseIconLink}
     />
   </TechIcon>
 );
