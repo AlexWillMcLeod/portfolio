@@ -99,7 +99,7 @@ const App: Component = () => {
             <img src="https://github.com/AlexWillMcLeod/portfolio/raw/main/assets/landing-page-screenshot.png" />
           </Project>
           <Project
-            title="Rust-React Web Server"
+            title="Rust-React Web App"
             desc="React front end, blazingly fast rust backend api with full user authentication, session management, user storage, hosted with docker compose on AWS"
             github_link="https://github.com/AlexWillMcLeod/freelance-project-tracker"
             technologies={[TypeScript, React, Vite, Rust]}
