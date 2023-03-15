@@ -39,6 +39,7 @@ import ResumeAssetLink from '../assets/resume.pdf';
 import UserIconLink from '../assets/user-icon.jpg';
 import AcediaPicturesImgLink from '../assets/acedia-pictures-icon.png';
 import ThingsNewsImgLink from '../assets/thingsnews.png';
+import FreelanceProjectImgLink from '../assets/freelance-project-tracker.png';
 
 const AlexMcLeodUser = () => (
   <User
@@ -96,6 +97,14 @@ const App: Component = () => {
             website_link="https://www.alexwillmcleod.com"
           >
             <img src="https://github.com/AlexWillMcLeod/portfolio/raw/main/assets/landing-page-screenshot.png" />
+          </Project>
+          <Project
+            title="Rust-React Web Server"
+            desc="React front end, blazingly fast rust backend api with full user authentication, session management, user storage, hosted with docker compose on AWS"
+            github_link="https://github.com/AlexWillMcLeod/freelance-project-tracker"
+            technologies={[TypeScript, React, Vite, Rust]}
+          >
+            <img src={FreelanceProjectImgLink} />
           </Project>
           <Project
             title="Machine Learning News Website"
